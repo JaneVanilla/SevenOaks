@@ -1,0 +1,143 @@
+.page-header__logo-img {
+	float: left;
+}
+.page-header__user-block {
+	float: right;
+	position: relative;
+}
+.page-header__block {
+	position: relative;
+	z-index: 20;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 15px;
+	padding-right: 20px;
+	background: #FFF;
+}
+.page-header__top-btn {
+	background: none;
+	border: none;
+	outline: none;
+	color: #FFF;
+}
+
+.page-header__nav {
+	display: inline-block;
+}
+.page-header__nav-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.page-header__nav-items {
+	display: inline-block;
+	margin-right: 30px;
+}
+.page-header__nav-items:last-child {
+	margin-right: 0;
+}
+.page-header__nav-links {
+	color: #b2c199;
+	text-decoration: none;
+}
+.page-header__nav-links--active {
+	color: #5fa5b9;
+}
+.page-header__btn-block {
+	position: absolute;
+	right: -33px;
+	padding: 7px 16px;
+	background:rgba(95, 165, 185, 0.9);
+	color: #FFF;
+	margin-bottom: 25px;
+}
+.page-header__top-btn--search {
+	margin-left: 60px;
+}
+.page-header__nav {
+	padding-top: 50px;
+}
+.page-header__search-decor {
+	position: absolute;
+	right: 0px;
+	color: rgba(95, 165, 185, 1);
+	background: none;
+	margin: 0;
+	padding: 0;
+	
+}
+.pahe-header__hamburger,
+.page-header__close {
+	display: none;
+}
+
+@media (max-width: 768px) {
+	.page-header__btn-block {
+		display: none;
+	}
+	.page-header__logo-img {
+		width: 80%;
+	}
+	.page-header__user-block {
+		float: none;
+	
+	}
+	.page-header__nav {
+		display: none;
+		z-index: 50;
+		position: absolute;
+		width: 100%;
+		top: 30px;
+		right: 5px;
+		padding: 0;
+		text-align: center;
+		background: #FFF;
+	}
+	.page-header__nav-items {
+		display: block;
+		margin: 0;	
+	}
+	.page-header__nav-links {
+		text-align: center;
+		display: block;
+		padding: 10px;
+		border-bottom: 1px solid lightgrey;
+	}
+	.page-header__nav-links:hover {
+		background: lightgrey;
+		border-bottom: 1px solid #fff;
+	}
+	.pahe-header__hamburger{
+		position: relative;
+		top: 15px;
+		margin-bottom: 0px;
+		display: inline-block;
+		float: right;
+		width: 15%;
+		font-size: 20px;
+		background: none;
+		border: none;
+	}
+	.page-header__block {
+		padding: 0;
+	}
+    .page-header__close {
+    	display: none;
+    	position: relative;
+    	left: 30px;
+    	top: 15px;
+    	font-size: 20px;
+    	margin: 0;
+    	padding: 0;
+    	background: #FFF;
+    	color: #000;
+    	border: none;
+    	outline: none;
+    }
+     .showbtn {
+	display: block;
+}
+   .hidebtn {
+   	display: none;
+   }
+}
