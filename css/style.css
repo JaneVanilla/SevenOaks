@@ -513,7 +513,7 @@ img {
 }
 .banner {
   position: relative;
-  background: url("../../img/banner.jpg");
+  background: url("../img/banner.jpg");
   -webkit-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
